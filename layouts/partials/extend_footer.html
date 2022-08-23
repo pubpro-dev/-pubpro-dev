@@ -1,0 +1,12 @@
+<footer class="footer">
+  {{- if site.Copyright }}
+  <span>{{ site.Copyright | markdownify }}</span>
+  {{- else }}
+  <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
+  {{- end }}
+  <span>|
+    <a href="/terms">Terms & condition</a> |
+    <a href="/tags">Tags</a> |
+    <a href="/archives">Archive</a>
+  </span>
+</footer>
