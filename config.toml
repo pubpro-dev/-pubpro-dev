@@ -16,8 +16,24 @@ minifyOutput = true
 [params]
 env = "production"
 title = "pubpro.dev"
-description = "ExampleSite description"
-keywords = ["Blog", "Portfolio", "PaperMod"]
+description = "pubpro.dev - private package repository for dart and flutter."
+keywords = [
+  "pub",
+  "pubpro",
+  "dev",
+  "dart",
+  "flutter",
+  "package",
+  "development",
+  "private",
+  "hosting",
+  "blog",
+  "guide",
+  "sell",
+  "buy",
+  "free",
+  "open source",
+]
 author = "Me"
 mainSections = ["posts", "newsletter", "packages"]
 images = ["<link or path of image for opengraph, twitter-cards>"]
@@ -42,11 +58,10 @@ showtoc = false
 tocopen = false
 
 [params.assets]
-favicon = "<link / abs url>"
-favicon16x16 = "<link / abs url>"
-favicon32x32 = "<link / abs url>"
-apple_touch_icon = "<link / abs url>"
-safari_pinned_tab = "<link / abs url>"
+favicon = "/favicon.ico"
+favicon16x16 = "/favicon-16x16.png"
+favicon32x32 = "/favicon-32x32.png"
+apple_touch_icon = "/apple-touch-icon.png"
 
 [params.label]
 text = "pubpro.dev"
