@@ -73,7 +73,7 @@ url = "tags"
 [params.homeInfoParams]
 Title = "Pubpro.dev"
 Content = """
-Welcome to the blog section of pubpro.dev. **pubpro.dev** is a **private** package hosting and marketing service. We currently support **[Dart](https://dart.dev) and [Flutter](https://flutter.dev)** packages. - Signup today at 🌟 [host.pubpro.dev](https://host.pubpro.dev).
+Welcome to the blog section of pubpro.dev. **Pubpro.dev** is a **private** package hosting and marketing service. We currently support **[Dart](https://dart.dev) and [Flutter](https://flutter.dev)** packages. - Signup today at 🌟 [dart.pubpro.dev](https://dart.pubpro.dev). Reach out to us at contact@pubpro.dev.
 """
 
 [[params.socialIcons]]
@@ -128,14 +128,14 @@ weight = 3
 
 [[menu.main]]
 identifier = "packages"
-name = "packages"
+name = "Packages"
 url = "/packages/"
 weight = 4
 
 [[menu.main]]
 identifier = "host"
-name = "host.pubpro.dev"
-url = "https://host.pubpro.dev/"
+name = "dart.pubpro.dev"
+url = "https://dart.pubpro.dev/"
 weight = 30
 
 [markup.highlight]
